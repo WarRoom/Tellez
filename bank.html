@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Help FamWar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="bg-glow bg-glow--green"></div>
+<div class="noise"></div>
+
+<main class="layout">
+
+<h1 class="title">
+<span class="title-main">Help</span>
+<span class="title-accent">FamWar</span>
+</h1>
+
+<p class="subtitle">
+Помощь доступна только на 28 сервере Grand Mobile
+</p>
+
+<div class="form-box">
+
+<input type="text" id="nickname" placeholder="Ваш никнейм">
+
+<input type="text" id="family" placeholder="Название семьи">
+
+<input type="number" id="salary" placeholder="Оплата за 1 победу FamWar">
+
+<button class="submit-btn" id="sendHelp">
+Отправить заявку
+</button>
+
+</div>
+
+<div class="messages">
+
+<h3>Обратная связь</h3>
+
+<div id="feedbackList">
+Сообщений пока нет
+</div>
+
+</div>
+
+</main>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
